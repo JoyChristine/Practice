@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>JavaScript form validation - checking date</title>
+<link rel='stylesheet' href='styles.css' type='text/css' />   
+</head>
+<body onload='document.form1.text1.focus()'>
+    <div class="mail">
+      <h2>[dd/mm/yyyy or dd-mm-yyyy format]</h2>
+            <form name="form1" action="#"> 
+        
+            <input type='text' name='text1'/>
+            <!--<li><input type='text' name='day' placeholder="day"/></li>
+            <li><input type='text' name='month'placeholder="month"/></li>
+            <li><input type='text' name='year'placeholder="year"/></li>  -->
+            &nbsp;
+            <p class="submit">
+                <input type="submit" name="submit" value="Submit" onclick="validatedate(document.form1.text1)"/>
+            </p>
+        &nbsp;
+        
+      </form>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
+
