@@ -19,12 +19,13 @@
 //  mod - is the modulus function ( % )
 
 
-//  function formula () {
-//  dayOfTheWeek = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD )  % 7;
+//  function calculateDay() {
+//  year = document.getElementById("id_of_year_in html").value;
 //  CC = CC =parseInt(year.slice(0,2));
 //  YY =parseInt(year.slice(2,4)); || var YY = document.getElementById("#id_of_year_in_html").value; YY = YY.slice (2,4);
 //  MM = document.getElementById("#id_of_month_in_html").value;
 //  DD = document.getElementById(#id_of_day_in html").value;
+//  dayOfTheWeek = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD )  % 7;
 //  console.log(dayOfTheWeek);
 //  return (Math.floor(dayOfTheWeek));
 //  }
@@ -40,5 +41,27 @@
 //addEventListener("click",Function_of_calculated_akan_name)
 //
 
+// function checkDayOfWeek() {
+//  day = calculateDay();
+//  checkGender();
+//  console.log("function is fine")
+// }
 
 //output should be based on gender
+// function checkGender() {
+//var gender = document.getElementByName(id/name of input of form);
+//if (gender[0].checked === true){
+//   return male;
+//} else if (gender[1].checked) === true){
+//   return female;
+//} else{
+//  return false;
+//}
+
+//switch statements
+// s
+ 
+
+
+
+//}
